@@ -2,10 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import telebot
 
-# python heh.py
-
-# 859071138:AAGbzXZ7cSfrQdUMxjaKBOA20VY7i_WgzbM
-# https://api.telegram.org/bot859071138:AAGbzXZ7cSfrQdUMxjaKBOA20VY7i_WgzbM/getMe
 bot = telebot.TeleBot('859071138:AAGbzXZ7cSfrQdUMxjaKBOA20VY7i_WgzbM');
 
 headers_Get = {
